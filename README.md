@@ -1,13 +1,20 @@
 # Peaceful Planet 2026
 
-This is a Next.js 14 application styled with Tailwind CSS.
+## Overview
+This is a Next.js 14 + Tailwind CSS app (TypeScript) called Peaceful Planet 2026.
 
-## Admin Configuration
+### Email Configuration
+- `EMAIL_FROM`: CITIVOUCHER@OUTLOOK.COM
+- `EMAIL_REPLY_TO`: helpdesk.dpsu@hotmail.com
 
-- Set `From` to `CITIVOUCHER@OUTLOOK.COM`
-- Set `Reply-to` to `helpdesk.dpsu@hotmail.com`
+### Vercel Deployment
+To deploy this application on Vercel, follow these steps:
+1. Go to [Vercel's website](https://vercel.com/)
+2. Sign up or log in to your account.
+3. Click on 'New Project'.
+4. Import this repository.
+5. Create a new Vercel deployment.
 
-## Commands
-
-- Run `npm install` to install dependencies.
-- Run `npm run dev` to start the development server.
+## Key Features
+- Public pages: landing, signup, login, survey
+- Admin pages with email allowlist functionality and a survey management dashboard.
